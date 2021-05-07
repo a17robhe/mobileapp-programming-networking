@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Mountain clickedMountain = mountains.get(position);
 
-                
                 final Snackbar snackbar = Snackbar.make(findViewById(R.id.list),
                         clickedMountain.getName() + " - " + clickedMountain.getLocation() + ": " + clickedMountain.getSize(),
                         999999 );
